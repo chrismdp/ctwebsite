@@ -36,4 +36,5 @@ route '*' do
   end
 end
 
+layout '/feedback/', :haml
 layout '*', :erb
