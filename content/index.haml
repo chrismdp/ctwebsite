@@ -2,5 +2,27 @@
 title: Home
 ---
 
-%h1 New site
-%p foo
+#service_1
+  .container
+    - CHURCHES.partition {|church| church.photo && !church.photo.empty? }.each do |partitioned|
+      - partitioned.each_slice(3) do |row|
+        .row.service_wrapper{:style => "margin-bottom: 30px"}
+          - row.each_with_index do |church, i|
+            .span4.feature{:class => i == 2 ? "last" : ""}
+              - if church.photo && !church.photo.empty?
+                %img{:src => 'img/ct/' + church.photo, :style => 'height: 200px'}
+              .text
+                %h6
+                  = church.name
+                  %small
+                    %br
+                    = church.demonination
+                %p= church.address.gsub("\n", "<br/>")
+                %p
+                  - if church.url
+                    %a{:href => church.url}= church.url
+                    %br
+                  - if church.email
+                    %a{:href => "mailto:" + church.email}= church.email
+                    %br
+                  = church.phone
