@@ -1,0 +1,26 @@
+---
+title: A New Item
+---
+
+#contact
+  .section_header
+    %h3 Event listings
+  .row.contact
+    .span12
+      %p
+        We don't currently list events for the different churches on this website.
+        %br
+        Is this something that you'd like to see? Send us feedback!
+    %form{:action => "https://docs.google.com/a/winvin.org.uk/spreadsheet/formResponse?formkey=dENoYmI3cmwwM3VqekpvempZTGQ0aVE6MQ&amp;theme=0AX42CRMsmRFbUy03NTAzM2Q4My03ODU1LTQ2NzItODI2YS1kZmU5YzdiMzZjOGQ&amp;ifq", :method => "POST"}
+      .row.form
+        .span6.box
+          %input#entry_3.name{:type => "text", :name => "entry.3.single", :placeholder => "Name"}
+          %input#entry_2.mail{:type => "text", :name => "entry.2.single", :placeholder => "Email"}
+          %label.checkbox
+            %input#group_4_1{:name => "entry.4.group", :type => "checkbox"}
+            Sign up for Churches Together Newsletter
+        .span6.box.box_r
+          %textarea#entry_0{:name => "entry.0.single", :placeholder => "Type your message here..."}
+      .row.submit
+        .span3.right
+          %input{:type => "submit", :name => "submit", :value => "Send feedback", :style => "margin-top: 10px"}

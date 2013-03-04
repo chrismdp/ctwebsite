@@ -1,28 +1,34 @@
 ---
 title: Home
 ---
+.section_header
+  %h3 About us
+.row
+  .span12.intro
+    %p Church Together Winchester provides a focus for Christians in Winchester to work together to enrich their faith and to bear witness by various initiatives of social outreach.
+    %p By better understanding of different Christian traditions, member churches hope to move ever closer to visible unity.
 
 #service_1
-  .container
-    - CHURCHES.partition {|church| church.photo && !church.photo.empty? }.each do |partitioned|
-      - partitioned.each_slice(3) do |row|
-        .row.service_wrapper{:style => "margin-bottom: 30px"}
-          - row.each_with_index do |church, i|
-            .span4.feature{:class => i == 2 ? "last" : ""}
-              - if church.photo && !church.photo.empty?
-                %img{:src => 'img/ct/thumbs/' + church.photo, :style => 'height: 200px'}
-              .text
-                %h6
-                  = church.name
-                  %small
-                    %br
-                    = church.demonination
-                %p= church.address.gsub("\n", "<br/>")
-                %p
-                  - if church.url
-                    %a{:href => church.url}= church.url
-                    %br
-                  - if church.email
-                    %a{:href => "mailto:" + church.email}= church.email
-                    %br
-                  = church.phone
+.container
+  - CHURCHES.partition {|church| church.photo && !church.photo.empty? }.each do |partitioned|
+    - partitioned.each_slice(3) do |row|
+      .row.service_wrapper{:style => "margin-bottom: 30px"}
+        - row.each_with_index do |church, i|
+          .span4.feature{:class => i == 2 ? "last" : ""}
+            - if church.photo && !church.photo.empty?
+              %img{:src => 'img/ct/thumbs/' + church.photo, :style => 'height: 200px'}
+            .text
+              %h6
+                = church.name
+                %small
+                  %br
+                  = church.demonination
+              %p= church.address.gsub("\n", "<br/>")
+              %p
+                - if church.url
+                  %a{:href => church.url}= church.url
+                  %br
+                - if church.email
+                  %a{:href => "mailto:" + church.email}= church.email
+                  %br
+                = church.phone
