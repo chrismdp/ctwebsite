@@ -10,7 +10,7 @@ title: Home
           - row.each_with_index do |church, i|
             .span4.feature{:class => i == 2 ? "last" : ""}
               - if church.photo && !church.photo.empty?
-                %img{:src => 'img/ct/' + church.photo, :style => 'height: 200px'}
+                %img{:src => 'img/ct/thumbs/' + church.photo, :style => 'height: 200px'}
               .text
                 %h6
                   = church.name
