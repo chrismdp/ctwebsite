@@ -31,5 +31,5 @@ CHURCHES = [
   Church.new("Winchester Evangelical Church", "highcliffe-evangelical-church.jpg", "FIEC Affiliated", "St Catherine's Road\nHighcliffe\nWinchester", "off Petersfield Road, south into Canute Road, right at end"),
   Church.new("Winchester Family Church", "winchester-family-church.jpg", "New Frontiers", "The Middlebrook Centre\nMiddle Brook St\nWinchester", "office at Stanmore Lane, Winchester", "http://www.winfam.org.uk", "01962 840 800"),
   Church.new("Winchester Vineyard", "winchester-vineyard.jpg", "Vineyard Churches UK", "The Vineyard Centre\nBar End Road\nWinchester\nSO23 9NP", "", "http://www.winvin.org.uk", "01962 863 217", "office@winvin.org.uk")
-]
+].sort_by {|c| c.name }
 
