@@ -16,6 +16,8 @@ CHURCHES = [
   Church.new("St Lukes", "", "Church of England", "Midmay Street\nStanmore\nWinchester\n"),
   Church.new("St Marks", "", "Church of England", "Oliver's Battery Road South\nWinchester\n"),
   Church.new("St Matthews", "st-matthews.jpg", "Church of England", "Stockbridge Road\nWinchester\n", "", "http://www.stmatthewsandstpauls.org.uk"),
+  Church.new("St Matthew, Otterbourne", "st-matthew-otterbourne.jpg", "Church of England", "", "", "http://www.chobenefice.co.uk", "", "administrator@chobenefice.co.uk"),
+  Church.new("All Saints, Compton", "all-saints-compton.png", "Church of England", "", "", "http://www.chobenefice.co.uk", "", "administrator@chobenefice.co.uk"),
   Church.new("St Pauls", "st-pauls.jpg", "Church of England", "St Paul's Hill\nWinchester\n", "", "http://www.stmatthewsandstpauls.org.uk", "01962 844 878", "stpaulsadmin@tiscali.co.uk"),
   Church.new("St Peters", "st-peters.jpg", "Roman Catholic", "Jewry Street\nWinchester\nSO23 8BW", "", "http://www.hampshiredowns.org.uk", "", "office@stpeterswinchester.org.uk"),
   Church.new("Winchester Society of Friends", "", "Quakers", "16 Colebrook Street\nWinchester"),
