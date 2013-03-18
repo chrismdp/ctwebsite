@@ -29,7 +29,7 @@ CHURCHES = [
   Church.new("The Welcome Gospel Hall", "", "Brethren", "High Street\nWinchester", "on the corner of Colebrook St next to the Guildhall"),
   Church.new("Wesley Methodist Church", "", "Methodist", "Fromond Road\nWeeke\nWinchester", "", "http://www.wesleychurch.org.uk"),
   Church.new("Winchester Baptist Church", "winchester-baptist.png", "Baptist", "City Road\nWinchester", "office on Swan Lane", "http://www.winbap.org.uk", "01962 868 770", "office@winbap.org.uk"),
-  Church.new("Winchester Cathedral", "", "Church of England", "The Close\nWinchester", "", "http://www.winchester-cathedral.org.uk", "01962 857 200", "cathedral.office@winchester-cathedral.org.uk"),
+  Church.new("Winchester Cathedral", "winchester-cathedral.jpg", "Church of England", "The Close\nWinchester", "", "http://www.winchester-cathedral.org.uk", "01962 857 200", "cathedral.office@winchester-cathedral.org.uk"),
   Church.new("Winchester Evangelical Church", "winchester-evangelical-church.png", "FIEC Affiliated", "St Catherine's Road\nHighcliffe\nWinchester", "off Petersfield Road, south into Canute Road, right at end"),
   Church.new("Winchester Family Church", "winchester-family-church.jpg", "New Frontiers", "The Middlebrook Centre\nMiddle Brook St\nWinchester", "office at Stanmore Lane, Winchester", "http://www.winfam.org", "01962 840 800"),
   Church.new("Winchester Vineyard", "winchester-vineyard.jpg", "Vineyard Churches UK", "The Vineyard Centre\nBar End Road\nWinchester\nSO23 9NP", "", "http://www.winvin.org.uk", "01962 863 217", "office@winvin.org.uk")
