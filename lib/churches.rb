@@ -24,7 +24,7 @@ CHURCHES = [
   Church.new("The Salvation Army", "salvation-army.jpg", "Salvation Army", "Parchment Street\nWinchester", "", "http://www.salvationarmy.org"),
   Church.new("St Stephens", "st-stephens.jpg", "Roman Catholic", "Oliver's Battery Road North\nWinchester", "", "http://www.hampshiredowns.org.uk", "", "office@stpeterswinchester.org.uk"),
   Church.new("St Swithun-upon-Kingsgate", "st-swinthun-upon-kingsgate.jpg", "Church of England", "St Swithun's Street\nWinchester\n", "over the arch by the Wykeham Arms", "http://www.hants.gov.uk/stlawrence"),
-  Church.new("The United Church", "united.jpg", "Methodist/United Reform", "Jewry Street\nWinchester", "", "http://www.unitedchurchwinchester.org.uk", "01962 849 559"),
+  Church.new("The United Church", "united.jpg", "Methodist/United Reformed", "Jewry Street\nWinchester", "", "http://www.unitedchurchwinchester.org.uk", "01962 849 559"),
   Church.new("University Chapel", "university-chapel.jpg", "Church of England/Ecumenical", "King Alfred Campus\nThe University of Winchester", ""),
   Church.new("The Welcome Gospel Hall", "", "Brethren", "High Street\nWinchester", "on the corner of Colebrook St next to the Guildhall"),
   Church.new("Wesley Methodist Church", "", "Methodist", "Fromond Road\nWeeke\nWinchester", "", "http://www.wesleychurch.org.uk"),
