@@ -27,7 +27,7 @@ CHURCHES = [
   Church.new("The United Church", "united.jpg", "Methodist/United Reformed", "Jewry Street\nWinchester", "", "http://www.unitedchurchwinchester.org.uk", "01962 849 559"),
   Church.new("University Chapel", "university-chapel.jpg", "Church of England/Ecumenical", "King Alfred Campus\nThe University of Winchester", ""),
   Church.new("The Welcome Gospel Hall", "", "Brethren", "High Street\nWinchester", "on the corner of Colebrook St next to the Guildhall"),
-  Church.new("Wesley Methodist Church", "", "Methodist", "Fromond Road\nWeeke\nWinchester", "", "http://www.wesleychurch.org.uk"),
+  Church.new("Wesley Methodist Church", "wesley-church-weeke-methodist.jpg", "Methodist", "Fromond Road\nWeeke\nWinchester", "", "http://www.wesleychurch.org.uk"),
   Church.new("Winchester Baptist Church", "winchester-baptist.png", "Baptist", "City Road\nWinchester", "office on Swan Lane", "http://www.winbap.org.uk", "01962 868 770", "office@winbap.org.uk"),
   Church.new("Winchester Cathedral", "winchester-cathedral.jpg", "Church of England", "The Close\nWinchester", "", "http://www.winchester-cathedral.org.uk", "01962 857 200", "cathedral.office@winchester-cathedral.org.uk"),
   Church.new("Winchester Evangelical Church", "winchester-evangelical-church.png", "FIEC Affiliated", "St Catherine's Road\nHighcliffe\nWinchester", "off Petersfield Road, south into Canute Road, right at end"),
