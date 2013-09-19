@@ -7,7 +7,7 @@ CHURCHES = [
   Church.new("St Bartholomew's, Hyde", "st-bartholomew.jpg", "Church of England", "King Alfred Place\nWinchester", "off Hyde Street", "http://threesaints.org.uk"),
   Church.new("Christ Church", "christchurch.jpg", "Church of England", "Christ Church Road\nWinchester\nSO23 9SR", "", "http://www.ccwinch.org.uk"),
   Church.new("Level 10 Church", "level-10-church.jpg", "Assemblies of God", "30-31 Jewry Street\nWinchester\nSO23 8RY", "", "http://www.level10church.org"),
-  Church.new("St Faith & St Cross", "st-cross.jpg", "Church of England", "Hospital of St Cross\nSt Cross Road\nWinchester", "", "http://www.stcrosshospital.co.uk"),
+  Church.new("St Faith & St Cross", "st-cross.jpg", "Church of England", "Hospital of St Cross\nSt Cross Road\nWinchester", "", "www.parishofstfaith.org.uk"),
   Church.new("Holy Trinity", "holy-trinity.jpg", "Church of England", "Upper Brook St\nWinchester", "", "http://www.holytrinitywinchester.co.uk"),
   Church.new("Hyde Street Chapel", "", "Evangelical Independent Baptist", "Hyde Street\nWinchester", "", "http://www.hydestreetchapel.org"),
   Church.new("North Winchester Community Church", "", "Baptist", "Weeke Community Centre\nTaplings Road\nWeeke\nWinchester\nSO22 6HG", "", "http://www.north-winchester-community-church.org.uk"),
