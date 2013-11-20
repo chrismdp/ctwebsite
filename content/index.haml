@@ -2,16 +2,8 @@
 title: Home
 ---
 .hero-unit{:style => 'background-image: url("/img/backgrounds/flower.jpg"); color: white;'}
-  %h1 Human trafficking: in Winchester?
-  %p
-    %strong A practical introduction to what can be done
-    %br
-    Come and join an open meeting with facilitator Terry Tennens, a leading advocate of the violenty oppressed.
-  %p
-    %strong
-      15 October, 7:30pm (7:15pm for Coffee)
-      %br
-      Winchester Vineyard, Bar End Road, Winchester, SO23 9NP
+  %h1 Christmas services
+  %p Services for the churches are listed on their various entries below. Have a very happy Christmas!
 
 #aboutus
   .row
@@ -34,6 +26,12 @@ title: Home
                     %small
                       %br
                       = church.demonination
+                  - if church.xmas_events
+                    %p
+                      %a.btn-danger.btn.pop{:href => 'javascript:;', :'data-content' => church.xmas_events.gsub(/\n/, '<br/>'), :'data-title' => 'Christmas services'}
+                        Christmas services
+                      %br
+                      %br
                   %p= church.address.gsub("\n", "<br/>")
                   %p
                     - if church.url
@@ -43,3 +41,8 @@ title: Home
                       %a{:href => "mailto:" + church.email}= church.email
                       %br
                     = church.phone
+
+:javascript
+  $(document).ready(function() {
+    $('.pop').popover({html: true});
+  });
