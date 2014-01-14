@@ -1,10 +1,9 @@
 ---
 title: Home
 ---
-.hero-unit{:style => 'background-image: url("/img/backgrounds/flower.jpg"); color: white;'}
-  %h1 Christmas services
-  %p Services for the churches are listed on their various entries below. Have a very happy Christmas!
-
+-#.hero-unit{:style => 'background-image: url("/img/backgrounds/flower.jpg"); color: white;'}
+  -#%h1 Christmas services
+  -#%p Services for the churches are listed on their various entries below. Have a very happy Christmas!
 #aboutus
   .row
     .span12.intro
@@ -26,12 +25,12 @@ title: Home
                     %small
                       %br
                       = church.demonination
-                  - if church.xmas_events
-                    %p
-                      %a.btn-danger.btn.pop{:href => 'javascript:;', :'data-content' => church.xmas_events.gsub(/\n/, '<br/>'), :'data-title' => 'Christmas services'}
-                        Christmas services
-                      %br
-                      %br
+                  -#- if church.xmas_events
+                    -#%p
+                      -#%a.btn-danger.btn.pop{:href => 'javascript:;', :'data-content' => church.xmas_events.gsub(/\n/, '<br/>'), :'data-title' => 'Christmas services'}
+                        -#Christmas services
+                      -#%br
+                      -#%br
                   %p= church.address.gsub("\n", "<br/>")
                   %p
                     - if church.url
