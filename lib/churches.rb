@@ -14,8 +14,8 @@ CHURCHES = [
   Church.new("St Johns", "st-john.jpg", "Church of England", "St Johns Street\nWinchester\n", ""),
   Church.new("St Lawrence", "st-lawrence.png", "Church of England", "The Square\nWinchester\n", "", "http://www.hants.gov.uk/stlawrence", nil, nil, "  <strong> 8 Dec</strong>, 3.30pm: Christingle\n <strong>22 Dec</strong>, 6pm: Carol Service\n <strong>24 Dec</strong>, 3.30pm: Crib Service\n <strong>25 Dec</strong>, 10am: Parish Communion
   "),
-  Church.new("St Lukes", "", "Church of England", "Midmay Street\nStanmore\nWinchester\n"),
-  Church.new("St Marks", "", "Church of England", "Oliver's Battery Road South\nWinchester\n"),
+  Church.new("St Lukes", "", "Church of England", "Midmay Street\nStanmore\nWinchester\n", "", "http://www.stlukeswinchester.org"),
+  Church.new("St Marks", "", "Church of England", "Oliver's Battery Road South\nWinchester\n", "", "http://www.stlukeswinchester.org"),
   Church.new("St Matthews", "st-matthews.jpg", "Church of England", "Stockbridge Road\nWinchester\n", "", "http://www.stmatthewsandstpauls.org.uk", nil, nil, "<strong>25 Dec</strong>, 8am: Holy Communion, 11.15am: Holy Communion with Carols\n"),
   Church.new("St Matthew, Otterbourne", "st-matthew-otterbourne.jpg", "Church of England", "", "", "http://www.chobenefice.co.uk", "", "administrator@chobenefice.co.uk", "<strong>22 Dec</strong>, 6pm Candelit Service of 9 Lessons & Carols\n<strong>24 Dec</strong>, 3pm Crib Service, 11.30pm: Midnight Mass\n<strong>25 Dec</strong>, 9.30am: Family Service for Christmas Day"),
   Church.new("All Saints, Compton", "all-saints-compton.png", "Church of England", "", "", "http://www.chobenefice.co.uk", "", "administrator@chobenefice.co.uk", "<strong>15 Dec</strong>, 6pm: Candelit Service of 9 Lessons & Carols\n<strong>24 Dec</strong>, 4pm: Crib Service, 10.30pm: Midnight Mass\n<strong>25 Dec</strong>, 10.30am: Family Communion Service\n"),
